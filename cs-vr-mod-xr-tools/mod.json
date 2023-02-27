@@ -1,0 +1,7 @@
+{
+    "name": "vr_mod_xr_tools",
+    "author": "teddybear082",
+    "version": "0.0.1",
+    "description": "Adds xr tools needed to create vr mod, must load before any other mods",
+	"priority": 1
+}

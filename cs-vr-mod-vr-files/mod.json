@@ -1,0 +1,7 @@
+{
+    "name": "vr_mod_vr_files",
+    "author": "teddybear082",
+    "version": "0.0.1",
+    "description": "Adds required files to play CS in VR",
+	"priority": 2
+}

@@ -1,0 +1,7 @@
+{
+    "name": "cs-scripts-vr-mod",
+    "author": "teddybear082",
+    "version": "0.0.1",
+    "description": "Adds required files to play CS in VR - modified original cs script files",
+	"priority": 3
+}
