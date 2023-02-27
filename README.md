@@ -1,13 +1,14 @@
 # CRUELTY SQUAD VR MOD LOADER
 
-**This is a fork of the excellent modloader developed by crustyrashky and disco0, which installs both disco's 0.2.2b version of the crus modloader as well as files required for a VR mod using the Godot OpenXR Asset and XR Tools asset.**
+**This modloader was developed as a fork of the excellent modloader developed by crustyrashky and disco0, it is now its own repo only to avoid confusion between the VR mod and normal flatscreen modloader. But all code for the modloader that makes this work was originally developed by them, and credit goes to them.**
 
 **YOU SHOULD NOT USE THIS INSTALLER IF YOU DON'T HAVE A VR HEADSET**
 
 Only use this mod on an official purchased version of the game.
 
-**This is also in an ALPHA (TESTING) STATE!!! Back up EVERYTHING Cruelty Squad associated before trying this version of the modloader.  Right now it is intended ONLY for VR modders not end-users.**
+**This is also in an BETA (TESTING) STATE!!! Back up EVERYTHING Cruelty Squad associated before trying this version of the modloader**
 
+Post any issues to the Issues tab of this Github so I can keep track of them.  Or you can contact me on the Cruelty Squad discord modifications channel or on the Flat2VR discord server.
 
 ## PRELIMINARY STEPS:
 
@@ -15,28 +16,28 @@ If you are running Cruelty Squad for the first time, run the game once first jus
 
 If you have installed Cruelty Squad before and you have used any mods / modloaders before, you must return to a "clean" state of the game, otherwise this is very likely not to work.
 
-Make sure the game is installed in the same directory as your Windows Powershell. For me, installing in my normal default Steam directory in Program Files worked fine.
+Make sure the game is installed in the same directory as your Windows Powershell. For me, installing in my normal default Steam directory in Program Files worked fine.  Some have had success on other drives, but if it fails, this may be the issue.
 
 
 ## Install the loader
 
-1. ~~Download the v0.17-VR-alpha release in THIS fork (teddybear082/new-install-script). Link here: https://github.com/teddybear082/crus-modloader/releases/tag/v.017-VR-alpha
+1. ~~Download the v0.1-VR-beta release in this repo. Link here: https://github.com/teddybear082/CrueltySquadVR-Modloader/releases/tag/v.1.0-beta-CrueltySquadVR-mod
 
-This early build currently uses a modification of crustyrashky and disco0's newer install script method. Unzip the release and copy the folder this README is in to your game folder, it should look something like this:
+This build currently uses a modification of crustyrashky and disco0's newer install script method that was developed for the flatscreen game. Unzip the release and copy the folder this README is in to your game folder, it should look something like this:
 ```
 => <GAME_DIR>
-  => <THIS FOLDER> (Unzipped)
+  => <THIS FOLDER> (Unzipped, but still a folder - crus-vr-modloader)
     - Install-Modloader.ps1
     - install_modloader.bat
     - godotpcktool.exe
     - modloader.gdc
-    - addons
+    - addons (folder)
     - libgodot_openxr.dll
     - openxr_loader.dll
     - override.cfg
-	- cs-scripts-vr-mod
-    - cs-vr-mod-vr-files
-	- cs-vr-mod-xr-tools
+    - cs-scripts-vr-mod (folder)
+    - cs-vr-mod-vr-files (folder)
+    - cs-vr-mod-xr-tools (folder)
     - README.md
   - crueltysquad.pck
   - crueltysquad.exe
@@ -96,13 +97,17 @@ https://github.com/GodotVR/godot-xr-tools (uses December 29, 2022 build)
 
 Special thanks to:
 
-Testers: Brock, MrGlock, Cortik from the Crus Discord and Hoshi82 (Youtube/Twitter) for testing 
+Ville Kallio, dev of Cruelty Squad, for the game, supporting the modding community, and for help figuring out a performance issue and fix that was disproportionately impacting the VR mod.
+
+Testers: Brock, MrGlock, Cortik from the Crus Discord, Hoshi82 (Youtube/Twitter), Iona_dev (Twitter), Asaklair (Twitter/Discord - also makes music for modded maps!) for testing 
 
 DX from the Crus Discord for so much help and ideas even though DX does not have a VR headset
 
-Trashski and Disc0 from the Crus discord for their modloader which literally made this mod happen and tons of advice
+Trashski and Disc0 from the Crus discord for their modloader which literally made this mod happen and tons of advice along the way.
 
 Digital Nightmare and MalcolmnNixon from Godot XR discord for so much help and pointers with VR stuff and creating the XRTools that again literally made this mod happen.
+
+Bastiaan Olij ("mux213") for creating and maintaining Godot's XR Asset and functionality and making GodotXR so easy for a noob like me to work with.
 
 
 
@@ -171,30 +176,32 @@ Reverse/Forward: Right pad press (toggle)
 
 ---------------------------------------------------
 
+Recenter View - In main menu you can reset view with the B or Y buttons, in game you can recenter view by pressing offhand (non-weapon hand) thumbstick.
+
+-------------
+
 ## 100 Percent Save File
 
 If you just want to play around with CS in VR and have never played the game before or haven't gotten far, I found a 100% save file on NexusMods. Not my content and I can't vouch for it.
 
 But you can find it here: https://www.nexusmods.com/crueltysquad/mods/2 as well as instructions for backing up your save file and installing the new save in case you want to revert back.
 
-I have been using it for testing the mod functions but I can't say for sure whether using it breaks your experience at all.
+I have been using it for testing the mod functions for quite some time now but I can't say for sure whether using it breaks your experience at all.
 
 ## Known issues
 
 -You have to jump up stairs
 
--You need to set the resolution in the in game menu to 1024 x 720 to ensure you can see the full menus
+-If you have a Valve Index, reduce to 90 framerate instead of 144 or 120.  144 definitely causes odd jitter and performance issues.
 
--If you have bad performance you can try the following:
+-If you have bad performance otherwise you can try the following:
 	
 	(1)	Turning down your resolution some in your headset settings / virtual desktop settings (medium instead of high or ultra)
 	
 	(2)	Turning on ASW always on (Oculus OpenXR Runtime), Virtual Desktop SSW always on (Steam OpenXR Runtime), SteamVR Reprojection always on
 	
--Because of the same performance issues I have modified the game to deactivate NPCs that are a certain distance from you. This means the game does not quite play the same as the original and you can catch NPC's "sleeping on the job." But it also provides a 15-20 FPS boost in my testing.
+-Because of the same performance issues I have modified the game to deactivate NPCs that are a certain distance from you. This means the game does not quite play the same as the original and you can catch NPC's "sleeping on the job." But it also provides a 15-20 FPS boost in my testing.  If you want to go back to the normal way the game was made and sacrifice those performance games, just uncheck the "NPC Performance Hack" in the main menu.
 
--Wall jump in death mode is experimental
+-Some random crashing. I don't think this is specifically related to VR, but it might be.
 
--Some random crashing. I don't think this is specifically related to VR.
-
--If you find other issues or think settings on certain implants should be tweaked, please let me know!
+-If you find other issues or think settings on certain implants should be tweaked, please let me know!  You can post issues on the "Issues" tab of this repo or contact me on the Cruelty Squad or Flat2VR discords.
