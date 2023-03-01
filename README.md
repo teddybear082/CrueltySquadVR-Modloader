@@ -159,6 +159,8 @@ Hand Radial menu: Select weapon by hovering and then releasing joystick press
 
 Point weapon down: Reload (while holding grip)
 
+You can swing your arms in an upward movement together to jump instead of using jump button
+
 In main menu just select things by using the index finger of your hands
 
 You can press the grip button of your offhand controller to use or grab items as well as using the virtual pointer on your weapon hand (grabby hand)
@@ -189,6 +191,8 @@ But you can find it here: https://www.nexusmods.com/crueltysquad/mods/2 as well 
 I have been using it for testing the mod functions for quite some time now but I can't say for sure whether using it breaks your experience at all.
 
 ## Known issues
+
+-There is no teleport. If you get motion sickness you may want to try https://store.steampowered.com/app/1143750/VRocker/ to help.  I confirmed it works at least with Quest+Virtual Desktop in the "stick touch" mode. Won't work with Link/Airlink. Not sure about other platforms.
 
 -You have to jump up stairs
 
