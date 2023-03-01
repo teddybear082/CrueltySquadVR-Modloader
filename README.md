@@ -73,7 +73,7 @@ This build currently uses a modification of crustyrashky and disco0's newer inst
 
 ## Install custom levels
 
-1. Drag/extract / unzip level folder into `%appdata%\Godot\app_userdata\Cruelty Squad\levels .`  You can find levels at: https://crus.cc/maps/newest/`
+1. Drag/extract / unzip level folder into `%appdata%\Godot\app_userdata\Cruelty Squad\levels .`  You can find levels at: https://crus.cc/maps/newest/
 2. Launch the game
 3. If it didn't work post to #modifications in the discord with the contents of `%appdata%\Godot\app_userdata\Cruelty Squad\logs\mods.log`
 
