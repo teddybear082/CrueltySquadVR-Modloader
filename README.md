@@ -62,6 +62,29 @@ This build currently uses a modification of crustyrashky and disco0's newer inst
 6. Run the crueltysquad.exe again with your VR headset on and active / running and the main scene should populate into your VR headset if all has gone well.
 	If it crashes the first time to desktop, run it again, sometimes it takes THREE times running the .exe for everything to take effect.  More than that, and there's a problem.
 
+## Known issues
+
+-There is no teleport. If you get motion sickness you may want to try https://store.steampowered.com/app/1143750/VRocker/ to help.  I confirmed it works at least with Quest+Virtual Desktop in the "stick touch" mode. Won't work with Link/Airlink. Not sure about other platforms.
+
+-You have to jump up stairs
+
+-If you have a Valve Index, reduce to 90 framerate instead of 144 or 120.  144 definitely causes odd jitter and performance issues.
+
+-If you have bad performance otherwise you can try the following:
+	
+	(1)	Turning down your resolution some in your headset settings / virtual desktop settings (medium instead of high or ultra)
+	
+	(2)	Turning on ASW always on (Oculus OpenXR Runtime), Virtual Desktop SSW always on (Steam OpenXR Runtime), SteamVR Reprojection always on
+	
+	(3)	Turning down the "NPCs" and "Draw Distance" values in game settings.
+	
+-Because of the same performance issues I have modified the game to deactivate NPCs that are a certain distance from you. This means the game does not quite play the same as the original and you can catch NPC's "sleeping on the job." But it also provides a 15-20 FPS boost in my testing.  If you want to go back to the normal way the game was made and sacrifice those performance games, just uncheck the "NPC Performance Hack" in the main menu.
+
+-Some random crashing. I don't think this is specifically related to VR, but it might be.
+
+-If you find other issues or think settings on certain implants should be tweaked, please let me know!  You can post issues on the "Issues" tab of this repo or contact me on the Cruelty Squad or Flat2VR discords.
+
+
 ## Return to flat screen mode
 1. Remove the vr-related mod folds from your mod directory
 
@@ -190,22 +213,4 @@ But you can find it here: https://www.nexusmods.com/crueltysquad/mods/2 as well 
 
 I have been using it for testing the mod functions for quite some time now but I can't say for sure whether using it breaks your experience at all.
 
-## Known issues
 
--There is no teleport. If you get motion sickness you may want to try https://store.steampowered.com/app/1143750/VRocker/ to help.  I confirmed it works at least with Quest+Virtual Desktop in the "stick touch" mode. Won't work with Link/Airlink. Not sure about other platforms.
-
--You have to jump up stairs
-
--If you have a Valve Index, reduce to 90 framerate instead of 144 or 120.  144 definitely causes odd jitter and performance issues.
-
--If you have bad performance otherwise you can try the following:
-	
-	(1)	Turning down your resolution some in your headset settings / virtual desktop settings (medium instead of high or ultra)
-	
-	(2)	Turning on ASW always on (Oculus OpenXR Runtime), Virtual Desktop SSW always on (Steam OpenXR Runtime), SteamVR Reprojection always on
-	
--Because of the same performance issues I have modified the game to deactivate NPCs that are a certain distance from you. This means the game does not quite play the same as the original and you can catch NPC's "sleeping on the job." But it also provides a 15-20 FPS boost in my testing.  If you want to go back to the normal way the game was made and sacrifice those performance games, just uncheck the "NPC Performance Hack" in the main menu.
-
--Some random crashing. I don't think this is specifically related to VR, but it might be.
-
--If you find other issues or think settings on certain implants should be tweaked, please let me know!  You can post issues on the "Issues" tab of this repo or contact me on the Cruelty Squad or Flat2VR discords.
