@@ -6,7 +6,7 @@
 
 Only use this mod on an official purchased version of the game.
 
-**This is also in an BETA (TESTING) STATE!!! Back up EVERYTHING Cruelty Squad associated before trying this version of the modloader**
+**This is also in an BETA (TESTING) STATE!!! Back up EVERYTHING Cruelty Squad associated before trying this version of the modloader.  Especially your SAVES! Crashes that happen with the VR mod right now (which I am looking into) could corrupt your save game so make sure you back it up.**
 
 Post any issues to the Issues tab of this Github so I can keep track of them.  Or you can contact me on the Cruelty Squad discord modifications channel or on the Flat2VR discord server.
 
