@@ -18,6 +18,7 @@ If you have installed Cruelty Squad before and you have used any mods / modloade
 
 Make sure the game is installed in the same directory as your Windows Powershell. For me, installing in my normal default Steam directory in Program Files worked fine.  Some have had success on other drives, but if it fails, this may be the issue.
 
+If you are using WMR, set your OpenXR runtime to SteamVR NOT WMR in the SteamVR settings.  Otherwise the game will appear on the screen but not your headset.
 
 ## Install the loader
 
