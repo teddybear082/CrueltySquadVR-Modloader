@@ -22,6 +22,8 @@ Make sure the game is installed in the same directory as your Windows Powershell
 
 If you are using WMR, set your OpenXR runtime to SteamVR NOT WMR in the SteamVR settings.  Otherwise the game will appear on the screen but not your headset.
 
+Check out the wiki page for more FAQs and stuff: https://github.com/teddybear082/CrueltySquadVR-Modloader/wiki
+
 ## Install the loader
 
 1. ~~Download the v0.1-VR-beta release in this repo. Link here: https://github.com/teddybear082/CrueltySquadVR-Modloader/releases/tag/v.1.0-beta-CrueltySquadVR-mod
@@ -83,7 +85,7 @@ This build currently uses a modification of crustyrashky and disco0's newer inst
 	
 -Because of the same performance issues I have modified the game to deactivate NPCs that are a certain distance from you. This means the game does not quite play the same as the original and you can catch NPC's "sleeping on the job." But it also provides a 15-20 FPS boost in my testing.  If you want to go back to the normal way the game was made and sacrifice those performance games, just uncheck the "NPC Performance Hack" in the main menu.
 
--Some random crashing. I don't think this is specifically related to VR, but it might be.
+-Some random crashing. Under investigation.
 
 -If you find other issues or think settings on certain implants should be tweaked, please let me know!  You can post issues on the "Issues" tab of this repo or contact me on the Cruelty Squad or Flat2VR discords.
 
