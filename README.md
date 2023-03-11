@@ -12,7 +12,7 @@ Post any issues to the Issues tab of this Github so I can keep track of them.  O
 
 This VR mod is now co-maintained and updated by https://github.com/SpencerBinXia as well.
 
-LAST UPDATED: March 11, 2023 (v 1.4-Beta)
+**LAST UPDATED: March 11, 2023 (v 1.4-Beta)**
 
 ## PRELIMINARY STEPS:
 
@@ -25,6 +25,8 @@ Make sure the game is installed in the same directory as your Windows Powershell
 If you are using WMR, set your OpenXR runtime to SteamVR NOT WMR in the SteamVR settings.  Otherwise the game will appear on the screen but not your headset.
 
 Check out the wiki page for more FAQs and stuff: https://github.com/teddybear082/CrueltySquadVR-Modloader/wiki
+
+**HOW TO UPDATE IF ALREADY INSTALLED VR MOD:** Download the latest release, unzip it somewhere NOT in the game files, and take just the cs-vr-mod-vr-files folder and cs-scripts-vr-mod folder from the release, delete the old versions of these folders in your "mods" folder in AppData.
 
 ## Install the loader
 
