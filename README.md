@@ -26,7 +26,7 @@ If you are using WMR, set your OpenXR runtime to SteamVR NOT WMR in the SteamVR 
 
 Check out the wiki page for more FAQs and stuff: https://github.com/teddybear082/CrueltySquadVR-Modloader/wiki
 
-**HOW TO UPDATE IF ALREADY INSTALLED VR MOD:** Download the latest release, unzip it somewhere NOT in the game files, and take just the cs-vr-mod-vr-files folder and cs-scripts-vr-mod folder from the release, delete the old versions of these folders in your "mods" folder in AppData.
+**HOW TO UPDATE IF ALREADY INSTALLED VR MOD:** Download the latest release, unzip it somewhere NOT in the game files, and take just the cs-vr-mod-vr-files folder and cs-scripts-vr-mod folder from the release, delete the old versions of these folders in your "mods" folder in AppData, and put the new versions of those folders in.
 
 ## Install the loader
 
