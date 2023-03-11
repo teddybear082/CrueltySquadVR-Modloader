@@ -12,6 +12,8 @@ Post any issues to the Issues tab of this Github so I can keep track of them.  O
 
 This VR mod is now co-maintained and updated by https://github.com/SpencerBinXia as well.
 
+LAST UPDATED: March 11, 2023 (v 1.4-Beta)
+
 ## PRELIMINARY STEPS:
 
 If you are running Cruelty Squad for the first time, run the game once first just to make sure all directories are created and then exit out.
@@ -26,7 +28,7 @@ Check out the wiki page for more FAQs and stuff: https://github.com/teddybear082
 
 ## Install the loader
 
-1. ~~Download the v0.1-VR-beta release in this repo. Link here: https://github.com/teddybear082/CrueltySquadVR-Modloader/releases/tag/v.1.0-beta-CrueltySquadVR-mod
+1. ~~Download the v0.1.4-VR-beta release in this repo. Link here: https://github.com/teddybear082/CrueltySquadVR-Modloader/releases/tag/v.1.4-beta-CrueltySquad-VR-mod
 
 This build currently uses a modification of crustyrashky and disco0's newer install script method that was developed for the flatscreen game. Unzip the release and copy the folder this README is in to your game folder, it should look something like this:
 ```
