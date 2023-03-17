@@ -6,13 +6,13 @@
 
 Only use this mod on an official purchased version of the game.
 
-**This is also in an BETA (TESTING) STATE!!! Back up EVERYTHING Cruelty Squad associated before trying this version of the modloader.  Especially your SAVES! Crashes that happen with the VR mod right now (which I am looking into) could corrupt your save game so make sure you back it up.**
+**Back up EVERYTHING Cruelty Squad associated before trying this version of the modloader.  Especially your SAVES!**
 
 Post any issues to the Issues tab of this Github so I can keep track of them.  Or you can contact me on the Cruelty Squad discord modifications channel or on the Flat2VR discord server.  
 
 This VR mod is now co-maintained and updated by https://github.com/SpencerBinXia as well.
 
-**LAST UPDATED: March 11, 2023 (v 1.4-Beta)**
+**LAST UPDATED: March 17, 2023 (v 1.0-RC1)**
 
 ## PRELIMINARY STEPS:
 
@@ -26,7 +26,7 @@ If you are using WMR, set your OpenXR runtime to SteamVR NOT WMR in the SteamVR 
 
 Check out the wiki page for more FAQs and stuff: https://github.com/teddybear082/CrueltySquadVR-Modloader/wiki
 
-**HOW TO UPDATE IF ALREADY INSTALLED VR MOD:** Download the latest release, unzip it somewhere NOT in the game files, and take just the cs-vr-mod-vr-files folder and cs-scripts-vr-mod folder from the release, delete the old versions of these folders in your "mods" folder in AppData, and put the new versions of those folders in.
+**HOW TO UPDATE IF ALREADY INSTALLED VR MOD:** See the wiki link above or click on "Wiki" on this page.
 
 ## Install the loader
 
@@ -89,7 +89,6 @@ This build currently uses a modification of crustyrashky and disco0's newer inst
 	
 -Because of the same performance issues I have modified the game to deactivate NPCs that are a certain distance from you. This means the game does not quite play the same as the original and you can catch NPC's "sleeping on the job." But it also provides a 15-20 FPS boost in my testing.  If you want to go back to the normal way the game was made and sacrifice those performance games, just uncheck the "NPC Performance Hack" in the main menu.
 
--Some random crashing. Under investigation.
 
 -If you find other issues or think settings on certain implants should be tweaked, please let me know!  You can post issues on the "Issues" tab of this repo or contact me on the Cruelty Squad or Flat2VR discords.
 
@@ -131,7 +130,7 @@ Special thanks to:
 
 Ville Kallio, dev of Cruelty Squad, for the game, supporting the modding community, and for help figuring out a performance issue and fix that was disproportionately impacting the VR mod.
 
-Testers: Brock, MrGlock, Cortik from the Crus Discord, Hoshi82 (Youtube/Twitter), Iona_dev (Twitter), Asaklair (Twitter/Discord - also makes music for modded maps!) for testing 
+Testers: Distant075, Brock, MrGlock, Cortik from the Crus Discord, Hoshi82 (Youtube/Twitter), Iona_dev (Twitter), Asaklair (Twitter/Discord - also makes music for modded maps!), Cortezj5 (Twitch) for testing 
 
 DX from the Crus Discord for so much help and ideas even though DX does not have a VR headset
 
@@ -143,13 +142,15 @@ Bastiaan Olij ("mux213") for creating and maintaining Godot's XR Asset and funct
 
 Frenchie from the Cruelty Squad Discord for creating the awesome CS mods website and hosting this mod!
 
+Saracen from Godot Engine and the V-Sekai Godot project for helping point me to the ultimate solution for crashes!!
+
 ---------------------------------------------------
 
 ## Controls
 
 Left (off hand)
 
-Trigger: Kick/jetpack Activate (toggle)/BioThruster/Throw held items- and select items on menu with pointer
+Trigger: Kick (targets at where you aim your weapon)/jetpack Activate (toggle)/BioThruster/Throw held items- and select items on menu with pointer
 
 X: Not used
 
