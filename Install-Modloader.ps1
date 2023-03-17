@@ -50,6 +50,9 @@ $openxrDLL2      = Get-Item "$PSScriptRoot\openxr_loader.dll"
 $vroverrideCfg   = Get-Item "$PSScriptRoot\override.cfg"
 $pckFile         = Get-Item "$gameDir\crueltysquad.pck"
 $pckBackupPath   = "$($pckFile.Directory)\$($pckFile.Name).bak"
+$exeFile         = Get-Item "$gameDir\crueltysquad.exe"
+$exeBackupPath   = "$($exeFile.Directory)\$($exeFile.Name).bak"
+$newexeFile      = Get-Item "$PSScriptRoot\crueltysquad.exe"
 
 $workDir = Get-Item $PSScriptRoot
 # Move to work dir (release/script base folder for now), then return to original dir
@@ -82,6 +85,10 @@ try
     # Move original pck to backup filename
     Write-Step "Backing up original pck to ${pckBackupPath}"
     Move-Item -Force $pckFile "$pckBackupPath"
+	
+	# Move original exe to backup filename
+	Write-Step "Backing up original exe to ${exeBackupPath}"
+	Move-Item -Force $exeFile "$exeBackupPath"
 
     # Move patched pck to original path, on failure restore bak file
     try
@@ -93,6 +100,18 @@ try
     {
         Write-Step -ErrorMessage "Restoring original pck from .bak"
         Move-Item $pckBackupPath $pckFile.FullName
+    }
+	
+	 # Move replacement exe to original path, on failure restore bak file
+    try
+    {
+        Write-Step "Moving updated exe into game directory"
+        Move-Item $newexeFile $exeFile
+    }
+    catch
+    {
+        Write-Step -ErrorMessage "Restoring original exe from .bak"
+        Move-Item $exeBackupPath $exeFile.FullName
     }
 }
 catch
