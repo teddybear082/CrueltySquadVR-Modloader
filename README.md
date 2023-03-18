@@ -1,4 +1,5 @@
 # CRUELTY SQUAD VR MOD LOADER
+![teddybearvr](https://user-images.githubusercontent.com/87204721/226103085-e4b45fcd-df85-46fa-9354-1449c1da08ad.png)
 
 **This modloader was developed as a fork of the excellent modloader developed by crustyrashky and disco0, it is now its own repo only to avoid confusion between the VR mod and normal flatscreen modloader. But all code for the modloader that makes this work was originally developed by them, and credit goes to them.**
 
