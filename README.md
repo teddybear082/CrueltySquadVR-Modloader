@@ -12,7 +12,7 @@ Post any issues to the Issues tab of this Github so I can keep track of them.  O
 
 This VR mod is now co-maintained and updated by https://github.com/SpencerBinXia as well.
 
-**LAST UPDATED: March 17, 2023 (v 1.0-RC1)**
+**LAST UPDATED: March 18, 2023 (v 1.0-Stable)**
 
 ## PRELIMINARY STEPS:
 
@@ -30,7 +30,7 @@ Check out the wiki page for more FAQs and stuff: https://github.com/teddybear082
 
 ## Install the loader
 
-1. ~~Download the v0.1.4-VR-beta release in this repo. Link here: https://github.com/teddybear082/CrueltySquadVR-Modloader/releases/tag/v.1.4-beta-CrueltySquad-VR-mod
+1. ~~Download the v1.0-release-crueltysquad-vrmod release in this repo. Link here: https://github.com/teddybear082/CrueltySquadVR-Modloader/releases/download/v1.0-release-crueltysquad-vrmod/crus-vr-modloader.zip (folder will be called "crus-vr-modloader.zip")
 
 This build currently uses a modification of crustyrashky and disco0's newer install script method that was developed for the flatscreen game. Unzip the release and copy the folder this README is in to your game folder, it should look something like this:
 ```
@@ -54,22 +54,29 @@ This build currently uses a modification of crustyrashky and disco0's newer inst
 ```
 
 
-![cs-vr-mod-install-directory1](https://user-images.githubusercontent.com/87204721/215295165-ea75968d-4ed2-42f7-be58-ad4119a17db9.png)
+![Stable1-0-release-install-directory](https://user-images.githubusercontent.com/87204721/226102214-76b5d4af-c2a5-4ff8-807b-cee11b7862f1.png)
+
 
 
 
 ---------------------------------------------------------------------------
 
-![cs-vr-mod-install-directory2](https://user-images.githubusercontent.com/87204721/215295184-94778c91-a6e2-4376-b979-a5a4bf64b859.png)
+
+![Stable1-0-release-crus-vr-modloader-folder](https://user-images.githubusercontent.com/87204721/226102220-0d0f10d1-b9cc-4d8f-9781-0f3a7dc6bc05.png)
+
+
+**The key thing here is that you unzip to the crus-vr-modloader folder as shown above NOT to loose files and NOT in a nested folder with more than one crus-vr-modloader folders.  Just one crus-vr-modloader folder, next to your .exe.**
 
 
 2. Run `install_modloader.bat`
-3. Check to see if your game directory now has an override.cfg, libgodot_openxr.dll and openxr_loader.dll next to the crueltysquad.exe and crueltysquad.pck (If so, that is a good sign, as this installer copies those files there).
+3. Check to see if your game directory now has an override.cfg, libgodot_openxr.dll and openxr_loader.dll next to the crueltysquad.exe and crueltysquad.pck (If so, that is a good sign, as this installer copies those files there; there will also now be a backup of your original game exe and pck as shown in the screenshots above). **If Windows Defender or Windows complains about the files or asks you for permission to run or keep the files, make sure to choose run or keep.**
 4. Start the game (it may crash the first time due to lack of the godot-xr-tools asset); if you now have a `mods` folder under `%appdata%\Godot\app_userdata\Cruelty Squad\` it worked  (as an example, I find this folder in my personal install by navigating to Windows(C:)\Users\[my windows user profile name]\AppData\Roaming\Godot\app_userdata\Cruelty Squad\mods).
 
 5. Now go to that `mods` folder and copy the "cs-vr-mod-vr-files" folder, "cs-vr-mod-xr-tools" folder, and "cs-scripts-vr-mod" folder from this folder to the 'mods' folder.
 6. Run the crueltysquad.exe again with your VR headset on and active / running and the main scene should populate into your VR headset if all has gone well.
-	If it crashes the first time to desktop, run it again, sometimes it takes THREE times running the .exe for everything to take effect.  More than that, and there's a problem.
+	If it crashes the first time to desktop, run it again, sometimes it takes FOUR times running the .exe for everything to take effect.  More than that, and there's a problem.
+	
+	There will be a terminal / command prompt window running while you run the game.  You'll see lots of supposed "ERROR:" messages but they do not impact the game, it is just very detailed logging going on.
 
 ## Known issues
 
@@ -129,6 +136,8 @@ https://github.com/GodotVR/godot-xr-tools (uses December 29, 2022 build)
 Special thanks to:
 
 Ville Kallio, dev of Cruelty Squad, for the game, supporting the modding community, and for help figuring out a performance issue and fix that was disproportionately impacting the VR mod.
+
+Spencer for jumping into Crus VR dev after the 1.0 beta to make huge changes for the 1.4 beta and 1.0 stable release
 
 Testers: Distant075, Brock, MrGlock, Cortik from the Crus Discord, Hoshi82 (Youtube/Twitter), Iona_dev (Twitter), Asaklair (Twitter/Discord - also makes music for modded maps!), Cortezj5 (Twitch) for testing 
 
