@@ -29,6 +29,8 @@ Check out the wiki page for more FAQs and stuff: https://github.com/teddybear082
 
 **HOW TO UPDATE IF ALREADY INSTALLED VR MOD:** See the wiki link above or click on "Wiki" on this page.
 
+**EPILEPSY / SEIZURE WARNING:** Textures move very quickly in VR, psychos cause a visual effect that may be disturbing, and there are flashing images. Therefore if you have Epilepsy you probably should not play this VR mod.
+
 ## Install the loader
 
 1. ~~Download the v1.0-release-crueltysquad-vrmod release in this repo. Link here: https://github.com/teddybear082/CrueltySquadVR-Modloader/releases/download/v1.0-release-crueltysquad-vrmod/crus-vr-modloader.zip (folder will be called "crus-vr-modloader.zip")
