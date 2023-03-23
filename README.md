@@ -25,6 +25,8 @@ Make sure the game is installed in the same directory as your Windows Powershell
 
 If you are using WMR, set your OpenXR runtime to SteamVR NOT WMR in the SteamVR settings.  Otherwise the game will appear on the screen but not your headset.
 
+**Turn off OpenXR Toolkit** if you are using it (for instance if you use it for MSFS2020), otherwise game will crash and never load.
+
 Check out the wiki page for more FAQs and stuff: https://github.com/teddybear082/CrueltySquadVR-Modloader/wiki
 
 **HOW TO UPDATE IF ALREADY INSTALLED VR MOD:** See the wiki link above or click on "Wiki" on this page.
