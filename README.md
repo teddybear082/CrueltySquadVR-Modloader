@@ -158,6 +158,7 @@ Frenchie from the Cruelty Squad Discord for creating the awesome CS mods website
 
 Saracen from Godot Engine and the V-Sekai Godot project for helping point me to the ultimate solution for crashes!!
 
+Godot Steam which is now used for replacing the game's .exe in the latest build (see Wiki)
 ---------------------------------------------------
 
 ## Controls
