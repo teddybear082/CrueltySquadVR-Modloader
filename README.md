@@ -13,7 +13,7 @@ Post any issues to the Issues tab of this Github so I can keep track of them.  O
 
 This VR mod is now co-maintained and updated by https://github.com/SpencerBinXia as well.
 
-**LAST UPDATED: March 18, 2023 (v 1.0-Stable)**
+**LAST UPDATED: March 30, 2023 (v 1.1-Stable)**
 
 ## PRELIMINARY STEPS:
 
@@ -23,19 +23,19 @@ If you have installed Cruelty Squad before and you have used any mods / modloade
 
 Make sure the game is installed in the same directory as your Windows Powershell. For me, installing in my normal default Steam directory in Program Files worked fine.  Some have had success on other drives, but if it fails, this may be the issue.
 
-If you are using WMR, set your OpenXR runtime to SteamVR NOT WMR in the SteamVR settings.  Otherwise the game will appear on the screen but not your headset.
+If you are using WMR, Virtual Desktop, or ALVR, **set your OpenXR runtime to SteamVR** NOT WMR or Oculus in the SteamVR settings.  Otherwise the game will appear on the screen but not your headset (WMR) or possibly not work at all (Virtual Desktop/ALVR).
 
 **Turn off OpenXR Toolkit** if you are using it (for instance if you use it for MSFS2020), otherwise game will crash and never load.
 
 Check out the wiki page for more FAQs and stuff: https://github.com/teddybear082/CrueltySquadVR-Modloader/wiki
 
-**HOW TO UPDATE IF ALREADY INSTALLED VR MOD:** See the wiki link above or click on "Wiki" on this page.
+**HOW TO UPDATE IF ALREADY INSTALLED VR MOD:** Since the base game updated this past week (week of March 27, 2023), safest way to "update" is to uninstall the game from steam, delete any files in your install directory left over from the previous mod install, reinstall the game from Steam, and then reinstall the modloader following the instructions below for a new install.
 
 **EPILEPSY / SEIZURE WARNING:** Textures move very quickly in VR, psychos cause a visual effect that may be disturbing, and there are flashing images. Therefore if you have Epilepsy you probably should not play this VR mod.
 
 ## Install the loader
 
-1. ~~Download the v1.0-release-crueltysquad-vrmod release in this repo. Link here: https://github.com/teddybear082/CrueltySquadVR-Modloader/releases/download/v1.0-release-crueltysquad-vrmod/crus-vr-modloader.zip (folder will be called "crus-vr-modloader.zip")
+1. ~~Download the v1.1-release-crueltysquad-vrmod release in this repo. Link here: https://github.com/teddybear082/CrueltySquadVR-Modloader/releases/download/v1.1-release-crueltysquad-vr-mod/crus-vr-modloader.zip (folder will be called "crus-vr-modloader.zip")
 
 This build currently uses a modification of crustyrashky and disco0's newer install script method that was developed for the flatscreen game. Unzip the release and copy the folder this README is in to your game folder, it should look something like this:
 ```
@@ -81,7 +81,6 @@ This build currently uses a modification of crustyrashky and disco0's newer inst
 6. Run the crueltysquad.exe again with your VR headset on and active / running and the main scene should populate into your VR headset if all has gone well.
 	If it crashes the first time to desktop, run it again, sometimes it takes FOUR times running the .exe for everything to take effect.  More than that, and there's a problem.
 	
-	There will be a terminal / command prompt window running while you run the game.  You'll see lots of supposed "ERROR:" messages but they do not impact the game, it is just very detailed logging going on.
 
 ## Known issues
 
@@ -142,9 +141,11 @@ Special thanks to:
 
 Ville Kallio, dev of Cruelty Squad, for the game, supporting the modding community, and for help figuring out a performance issue and fix that was disproportionately impacting the VR mod.
 
-Spencer for jumping into Crus VR dev after the 1.0 beta to make huge changes for the 1.4 beta and 1.0 stable release
+Spencer for jumping into Crus VR dev after the 1.0 beta to make huge changes for the 1.4 beta, 1.0 stable and 1.1 stable release
 
-Testers: Distant075, Brock, MrGlock, Cortik from the Crus Discord, Hoshi82 (Youtube/Twitter), Iona_dev (Twitter), Asaklair (Twitter/Discord - also makes music for modded maps!), Cortezj5 (Twitch) for testing 
+Mr. Glockenspiel for helping dev and coming up with an amazing Nightmare Goggles shader
+
+Testers: Distant075, Brock, Cortik from the Crus Discord, Hoshi82 (Youtube/Twitter), Iona_dev (Twitter), Asaklair (Twitter/Discord - also makes music for modded maps!), Cortezj5 (Twitch) for testing 
 
 DX from the Crus Discord for so much help and ideas even though DX does not have a VR headset
 
@@ -157,7 +158,6 @@ Bastiaan Olij ("mux213") for creating and maintaining Godot's XR Asset and funct
 Frenchie from the Cruelty Squad Discord for creating the awesome CS mods website and hosting this mod!
 
 Saracen from Godot Engine and the V-Sekai Godot project for helping point me to the ultimate solution for crashes!!
-
 
 Godot Steam which is now used for replacing the game's .exe in the latest build (see Wiki)
 
