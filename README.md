@@ -1,6 +1,10 @@
 # CRUELTY SQUAD VR MOD LOADER
 ![teddybearvr](https://user-images.githubusercontent.com/87204721/226103085-e4b45fcd-df85-46fa-9354-1449c1da08ad.png)
 
+
+# ANNOUNCEMENT: VR MOD DOES NOT PRESENTLY WORK WITH THE JULY 2023 UPDATE OF THE GAME.  I apologize for the inconvenience but every "quick hack" I tried did not work fully to get even some version of the mod going again.  Possibly using this tool may work to downgrade the game back before the July 2023 version and then you can use this mod, but I haven't tried it myself yet: https://github.com/SteamRE/DepotDownloader.  It appears there will be significant work to get the VR Mod working again so I have no timetable on getting it back and running.
+
+
 **This modloader was developed as a fork of the excellent modloader developed by crustyrashky and disco0, it is now its own repo only to avoid confusion between the VR mod and normal flatscreen modloader. But all code for the modloader that makes this work was originally developed by them, and credit goes to them.**
 
 **YOU SHOULD NOT USE THIS INSTALLER IF YOU DON'T HAVE A VR HEADSET**
