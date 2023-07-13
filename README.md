@@ -2,9 +2,10 @@
 ![teddybearvr](https://user-images.githubusercontent.com/87204721/226103085-e4b45fcd-df85-46fa-9354-1449c1da08ad.png)
 
 
-# ANNOUNCEMENT: VR MOD DOES NOT PRESENTLY WORK WITH THE JULY 2023 UPDATE OF THE GAME.  I apologize for the inconvenience but every "quick hack" I tried did not work fully to get even some version of the mod going again.  Possibly using this tool may work to downgrade the game back before the July 2023 version and then you can use this mod, but I haven't tried it myself yet: https://github.com/SteamRE/DepotDownloader.  It appears there will be significant work to get the VR Mod working again so I have no timetable on getting it back and running.
+# ANNOUNCEMENT: Cruelty Squad updated the game in July 2023 so if you updated your game, the earlier "final" version of the VR mod will no longer work.  You need to completely uninstall the old VR mod and files (from both your user AppData folder and the Cruelty Squad Steam folder), and follow the instructions for a completely fresh install of the VR mod (version 1.2).
 
-Someone (@GrubyBotul) also posted on my Twitter that: "You don't need an external tool to download an old build from Steam, the built in console can do that. Depot and Manifest ID's can be found on SteamDB. There are many guides on how to open the console and download old builds from it online, you just need to change the ID's" if that also helps anyone.
+
+
 
 **This modloader was developed as a fork of the excellent modloader developed by crustyrashky and disco0, it is now its own repo only to avoid confusion between the VR mod and normal flatscreen modloader. But all code for the modloader that makes this work was originally developed by them, and credit goes to them.**
 
@@ -18,7 +19,7 @@ Post any issues to the Issues tab of this Github so I can keep track of them.  O
 
 This VR mod is now co-maintained and updated by https://github.com/SpencerBinXia as well.
 
-**LAST UPDATED: March 30, 2023 (v 1.1-Stable)**
+**LAST UPDATED: July 13, 2023 (v 1.2-Stable)**
 
 ## PRELIMINARY STEPS:
 
@@ -40,7 +41,7 @@ Check out the wiki page for more FAQs and stuff: https://github.com/teddybear082
 
 ## Install the loader
 
-1. ~~Download the v1.1-release-crueltysquad-vrmod release in this repo. Link here: https://github.com/teddybear082/CrueltySquadVR-Modloader/releases/download/v1.1-release-crueltysquad-vr-mod/crus-vr-modloader.zip (folder will be called "crus-vr-modloader.zip")
+1. ~~Download the v1.2-release-crueltysquad-vrmod release in this repo. Link here: https://github.com/teddybear082/CrueltySquadVR-Modloader/releases/download/v.1.2-release-crueltysquad-vr-mod/crus-vr-modloader.zip (folder will be called "crus-vr-modloader.zip")
 
 This build currently uses a modification of crustyrashky and disco0's newer install script method that was developed for the flatscreen game. Unzip the release and copy the folder this README is in to your game folder, it should look something like this:
 ```
@@ -54,7 +55,6 @@ This build currently uses a modification of crustyrashky and disco0's newer inst
     - libgodot_openxr.dll
     - openxr_loader.dll
     - override.cfg
-    - cs-scripts-vr-mod (folder)
     - cs-vr-mod-vr-files (folder)
     - cs-vr-mod-xr-tools (folder)
     - README.md
@@ -82,8 +82,9 @@ This build currently uses a modification of crustyrashky and disco0's newer inst
 3. Check to see if your game directory now has an override.cfg, libgodot_openxr.dll and openxr_loader.dll next to the crueltysquad.exe and crueltysquad.pck (If so, that is a good sign, as this installer copies those files there; there will also now be a backup of your original game exe and pck as shown in the screenshots above). **If Windows Defender or Windows complains about the files or asks you for permission to run or keep the files, make sure to choose run or keep.**
 4. Start the game (it may crash the first time due to lack of the godot-xr-tools asset); if you now have a `mods` folder under `%appdata%\Godot\app_userdata\Cruelty Squad\` it worked  (as an example, I find this folder in my personal install by navigating to Windows(C:)\Users\[my windows user profile name]\AppData\Roaming\Godot\app_userdata\Cruelty Squad\mods).
 
-5. Now go to that `mods` folder and copy the "cs-vr-mod-vr-files" folder, "cs-vr-mod-xr-tools" folder, and "cs-scripts-vr-mod" folder from this folder to the 'mods' folder.
-6. Run the crueltysquad.exe again with your VR headset on and active / running and the main scene should populate into your VR headset if all has gone well.
+5. Now go to that `mods` folder and copy the "cs-vr-mod-vr-files" folder and "cs-vr-mod-xr-tools" folder from this folder to the 'mods' folder.  **Note, there are now only two VR mod folders you have to move over, not three**
+   
+7. Run the crueltysquad.exe again with your VR headset on and active / running and the main scene should populate into your VR headset if all has gone well.
 	If it crashes the first time to desktop, run it again, sometimes it takes FOUR times running the .exe for everything to take effect.  More than that, and there's a problem.
 	
 
