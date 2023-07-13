@@ -63,9 +63,8 @@ func initialise() -> bool:
 	if interface:
 		# we are already initialised
 		return true
-		
+
 	interface = ARVRServer.find_interface("OpenXR")
-		
 	if interface and interface.initialize():
 		print("OpenXR Interface initialized")
 
