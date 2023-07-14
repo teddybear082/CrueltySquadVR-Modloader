@@ -35,7 +35,7 @@ If you are using WMR, Virtual Desktop, or ALVR, **set your OpenXR runtime to Ste
 
 Check out the wiki page for more FAQs and stuff: https://github.com/teddybear082/CrueltySquadVR-Modloader/wiki
 
-**HOW TO UPDATE IF ALREADY INSTALLED VR MOD:** Since the base game updated this past week (week of March 27, 2023), safest way to "update" is to uninstall the game from steam, delete any files in your install directory left over from the previous mod install, reinstall the game from Steam, and then reinstall the modloader following the instructions below for a new install.
+**HOW TO UPDATE IF ALREADY INSTALLED VR MOD:** Since the base game updated this past week (week of July 1, 2023), safest way to "update" is to uninstall the game from steam, delete any files in your install directory in Steam left over from the previous mod install, reinstall the game from Steam, and then reinstall the modloader following the instructions below for a new install.
 
 **EPILEPSY / SEIZURE WARNING:** Textures move very quickly in VR, psychos cause a visual effect that may be disturbing, and there are flashing images. Therefore if you have Epilepsy you probably should not play this VR mod.
 
