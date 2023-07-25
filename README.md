@@ -2,7 +2,7 @@
 ![teddybearvr](https://user-images.githubusercontent.com/87204721/226103085-e4b45fcd-df85-46fa-9354-1449c1da08ad.png)
 
 
-# ANNOUNCEMENT: Cruelty Squad updated the game in July 2023 so if you updated your game, the earlier "final" version of the VR mod will no longer work.  You need to completely uninstall the old VR mod and files (from both your user AppData folder and the Cruelty Squad Steam folder), and follow the instructions for a completely fresh install of the VR mod (version 1.2).
+# ANNOUNCEMENT: Cruelty Squad updated the game in July 2023 so if you updated your game, the earlier "final" version of the VR mod will no longer work.  You need to completely uninstall the old VR mod and files (from both your user AppData folder and the Cruelty Squad Steam folder), and follow the instructions for a completely fresh install of the VR mod (version 1.3).
 
 
 
@@ -19,7 +19,7 @@ Post any issues to the Issues tab of this Github so I can keep track of them.  O
 
 This VR mod is now co-maintained and updated by https://github.com/SpencerBinXia as well.
 
-**LAST UPDATED: July 13, 2023 (v 1.2-Stable)**
+**LAST UPDATED: July 25, 2023 (v 1.3-Stable)**
 
 ## PRELIMINARY STEPS:
 
@@ -35,13 +35,15 @@ If you are using WMR, Virtual Desktop, or ALVR, **set your OpenXR runtime to Ste
 
 Check out the wiki page for more FAQs and stuff: https://github.com/teddybear082/CrueltySquadVR-Modloader/wiki
 
-**HOW TO UPDATE IF ALREADY INSTALLED VR MOD:** Since the base game updated this past week (week of July 1, 2023), safest way to "update" is to uninstall the game from steam, delete any files in your install directory in Steam left over from the previous mod install, reinstall the game from Steam, and then reinstall the modloader following the instructions below for a new install.
+**HOW TO UPDATE IF ALREADY INSTALLED VR MOD:** Since the base game updated the week of July 1, 2023, if you are still on v 1.1 of the mod, the safest way to "update" is to uninstall the game from steam, delete any files in your install directory in Steam left over from the previous mod install, reinstall the game from Steam, and then reinstall the modloader following the instructions below for a new install.  
+
+If you are already on v. 1.2 of the mod, you can update just by deleting your old cs-vr-mod-vr-files folder from your mods folder and replacing it with the new one in the 1.3 release. 
 
 **EPILEPSY / SEIZURE WARNING:** Textures move very quickly in VR, psychos cause a visual effect that may be disturbing, and there are flashing images. Therefore if you have Epilepsy you probably should not play this VR mod.
 
 ## Install the loader
 
-1. ~~Download the v1.2-release-crueltysquad-vrmod release in this repo. Link here: https://github.com/teddybear082/CrueltySquadVR-Modloader/releases/download/v.1.2-release-crueltysquad-vr-mod/crus-vr-modloader.zip (folder will be called "crus-vr-modloader.zip")
+1. ~~Download the v1.3-release-crueltysquad-vrmod release in this repo. Link here: https://github.com/teddybear082/CrueltySquadVR-Modloader/releases/download/v.1.3-release-crueltysquad-vr-mod/crus-vr-modloader.zip
 
 This build currently uses a modification of crustyrashky and disco0's newer install script method that was developed for the flatscreen game. Unzip the release and copy the folder this README is in to your game folder, it should look something like this:
 ```
@@ -151,7 +153,7 @@ Spencer for jumping into Crus VR dev after the 1.0 beta to make huge changes for
 
 Mr. Glockenspiel for helping dev and coming up with an amazing Nightmare Goggles shader
 
-Testers: Distant075, Brock, Cortik from the Crus Discord, Hoshi82 (Youtube/Twitter), Iona_dev (Twitter), Asaklair (Twitter/Discord - also makes music for modded maps!), Cortezj5 (Twitch) for testing 
+Testers: Distant075, Brock, Cortik from the Crus Discord, Hoshi82 (Youtube/Twitter), Iona_dev (Twitter), Asaklair (Twitter/Discord - also makes music for modded maps!), Cortezj5 (Twitch), luca222901 (Discord) for testing 
 
 DX from the Crus Discord for so much help and ideas even though DX does not have a VR headset
 
