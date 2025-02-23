@@ -29,7 +29,7 @@ If you have installed Cruelty Squad before and you have used any mods / modloade
 
 Make sure the game is installed in the same directory as your Windows Powershell. For me, installing in my normal default Steam directory in Program Files worked fine.  Some have had success on other drives, but if it fails, this may be the issue.
 
-If you are using WMR, Virtual Desktop, or ALVR, **set your OpenXR runtime to SteamVR** NOT WMR or Oculus in the SteamVR settings.  Otherwise the game will appear on the screen but not your headset (WMR) or possibly not work at all (Virtual Desktop/ALVR).
+If you are using WMR, Virtual Desktop, or ALVR, **set your OpenXR runtime to SteamVR** NOT WMR or Oculus in the SteamVR settings.  Otherwise the game will appear on the screen but not your headset (WMR) or possibly not work at all (Virtual Desktop/ALVR).  Virtual Desktop users can now also use the new "VDXR" runtime setting.  You may want to enable SSW with VD to help with framerates which still tank in parts of the game.
 
 **Turn off OpenXR Toolkit** if you are using it (for instance if you use it for MSFS2020), otherwise game will crash and never load.
 
